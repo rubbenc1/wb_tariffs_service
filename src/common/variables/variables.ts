@@ -1,5 +1,4 @@
 export const HEADERS = [
-    'ID',
     'KGV Marketplace',
     'KGV Supplier',
     'KGV Supplier Express',
