@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "module": "NodeNext",
+      "target": "ES2017",
+      "baseUrl": "./",
+      "paths": {
+        "#*": ["./src/*"]
+      },
+      "esModuleInterop": true,
+      "allowJs": true,
+      "checkJs": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "skipLibCheck": true
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "src/**/*.test.*",
+        "src/**/*.spec.*",
+    ]
+  }
+  
+  
+  
