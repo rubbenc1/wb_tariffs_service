@@ -4,7 +4,7 @@ import { fetchDataInBatches } from './fetch_data_from_pg';
 import { BATCH_SIZE, HEADERS } from '#common/variables/variables';
 import { appendDataToSheet } from './write_to_sheet';
 
-dotenv.config({ path: resolve(__dirname, '../../.env') });
+dotenv.config({ path: resolve(__dirname, '../../../.env') });
 
 export async function exportToGoogleSheets(){
     let offset = 0;

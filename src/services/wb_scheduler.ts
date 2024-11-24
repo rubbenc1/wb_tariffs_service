@@ -4,7 +4,7 @@ import cron from "node-cron";
 /**
  * Schedules an hourly job
  */
-export function scheduleHourlyJob(): void {
+export async function scheduleHourlyJob(): Promise<void> {
   cron.schedule("0 * * * *", async () => {
     console.log("Running hourly job...");
     try {

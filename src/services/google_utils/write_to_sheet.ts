@@ -35,7 +35,7 @@ export async function appendDataToSheet(
   if (!sheetExists) {
     await create_sheet(sheets, sheetTitle, spreadsheetId);
     await addHeaders(sheets, sheetTitle,spreadsheetId, headers);
-    await appendData(sheets, sheetTitle, spreadsheetId, values);
   }
+  await appendData(sheets, sheetTitle, spreadsheetId, values);
 
 }

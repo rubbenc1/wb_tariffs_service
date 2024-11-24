@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv';
 import { resolve } from 'path';
 import { saveTariffs } from "#services/wb_utils/save_tarrifs";
 
-dotenv.config({ path: resolve(__dirname, '../../.env') });
+dotenv.config({ path: resolve(__dirname, '../../../.env') });
 
 const WB_API = process.env.WB_URL || "";
 const API_SESSION = process.env.API_SESSION || "";
